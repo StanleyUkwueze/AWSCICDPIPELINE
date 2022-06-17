@@ -71,5 +71,5 @@ Resources:
                   Pattern: !Sub ^refs/heads/master$
        Environment:
         Type: WINDOWS_CONTAINER
-        ComputerType: BUILD_GENERAL1_SMALL
+        ComputeType: BUILD_GENERAL1_SMALL
         Image: aws/codebuild/standard:4.0
